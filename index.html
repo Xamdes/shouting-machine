@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Shouting Machine</title>
+  </head>
+  <body class="container-fluid">
+    <form id="formOne">
+      <div class="form-group">
+        <label for="user">Input: </label>
+        <input id="user" class="form-control" type="text">
+      </div>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+    <!-- Start Row -->
+    <div class="row">
+      <div class="col-md-6">
+        <h2>You said:</h2>
+        <ul class="unstyled" id="user">
+
+        </ul>
+      </div>
+
+      <div class="col-md-6">
+        <h2>Shouting Machine Response:</h2>
+        <ul class="unstyled" id="shout-machine">
+
+        </ul>
+      </div>
+    </div>
+    <!-- End Row -->
+  </body>
+</html>
